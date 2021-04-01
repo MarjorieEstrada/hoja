@@ -1,0 +1,73 @@
+body{
+    color:purple;
+    background-color: #d8da3d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    border: 3px solid whitesmoke;
+    padding: 130px 15px 15px 15px;
+    margin:auto;
+    width: 900px;
+    height:474px;
+}
+h6{
+    color:chocolate;
+    font-size: 16px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    }
+p{
+    color: black;
+    }
+html{
+    background: url(http://www.marialeonstyle.com/wp-content/uploads/2012/06/birretes_2.jpg)    
+    repeat fixed -90px 15px;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 11px;
+    border: 2px solid #e8e669;
+    border-radius: 13px;
+    background: #f2ff40;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2ff40), to(#e34004));
+    background: -moz-linear-gradient(top, #f2ff40, #e34004);
+    background: linear-gradient(to bottom, #f2ff40, #e34004);
+    -webkit-box-shadow: #ff5959 0px 0px 0px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 0px 0px;
+    box-shadow: #ff5959 0px 0px 0px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px trebuchet ms;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #ffff4d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffff4d), to(#ff4d05));
+    background: -moz-linear-gradient(top, #ffff4d, #ff4d05);
+    background: linear-gradient(to bottom, #ffff4d, #ff4d05);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #919926;
+    background: -webkit-gradient(linear, left top, left bottom, from(#919926), to(#e34004));
+    background: -moz-linear-gradient(top, #919926, #e34004);
+    background: linear-gradient(to bottom, #919926, #e34004);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABg0lEQVRIibXVMWsVQRQF4C/LEiQEkZBCQkgVHhLEUixSSmqxtkgptopFEmxF8gv8C7Y2glrY2YgEIlooBNKIGgiKplAnFjP73vhYkt19mwPDntm5c8+9d2fuTqFwhigxh0c412H/d7zHC3xAMAo4oCgxi6sdBApcSAGGJHIXu9l6qMj4xjYiS9jAVxzhVp1RH2MBr/AXN7L3/0Vc1Mzb8PN4k7K5WGfQFCeJXRaz2M5f9j2eYh/TdRlMUqKK38YxBnXlCQ34afiYnktlTRRN0SQjlUAYMwgT8ktpvlenvo4rTVI4AS/xSUqgEihwU/w493U/QdeSj63KdyWwIF6Qt5jJRLXg82Lz2xf71NCgxHP8FC9KFyyn4I6wmi8UuCemdUe7cpRYwUP8wAHWcpspDLAjtus97c77nFiKP3iCzeSjCjyU+IYvYtt9jV8NnQcc4h2e4XPN+lDpOn7jsf770pBsG/XyXHxiXpFpo16+qEfkF21FPA0P9FyiHAPxzzS+1on/A2kETQ9htBr4AAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
