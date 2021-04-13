@@ -1,29 +1,81 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Curriculum Vitae</title>
-    <link href="proyecto/css/style1.css" rel="StyleSheet" type="text/css">
-    <link href="proyecto/tools/Cuaderno.ico" rel="icon" type="image/ico">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <link href="proyecto/tools/libro.ico" rel="icon" type="image/ico">
+     <title>Curriculum Vitae</title>
+
+     <style type="text/css">
+      * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(proyecto/tools/images.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 38px; font-weight: bold; letter-spacing: -3px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; text-align: justify; }
+        a { color: rgb(49, 25, 54); text-decoration: none; border-bottom: 1px dotted rgb(49, 25, 54); }
+        a:hover { border-bottom-style: solid; color: rgb(49, 25, 54); }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
 </head>
+
 <body>
-    <img src="proyecto/tools/Foto.jpg" width="300" 
-    height="300" alt="Mi Foto">
 
+    <div id="page-wrap">
     
-    <h1>Curriculum Vitae</h1>
-    <h1>Marjorie Celeste Estrada López</h1>
-    <h2>Secreteraido Bilingüe con orientacion en computación</h2>
-    <h3>DPI: 3210 85104 2021</h3><hr size="7">
-    <h6>7av. calle 3-23 Zona 1, Villa Nueva tel. 43434534 email 
-    Kanatzuba@hotmail.com </h6>
-
-    <ul class="navbar">
-        <li><a href="index.html">Principal</a></li>
-        <li><a href="estudios.html">Estudios efectuado</a></li>
-        <li><a href="experiencia.html">Experiencia laboral</a></li>
-        <li><a href="referencia.html">Referencia laboral</a></li>
-    </ul>
-<p>Curriculum Vitae realizado en el año 2021</p>
+        <img src="proyecto/tools/Foto.jpg" width=250" 
+        height="250"alt="Mi foto" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+            
+            <h2>Curriculum Vitae</h2>
+            <h1 class="fn">Marjorie Celeste Estrada López</h1>
+            <p>
+                Cell: <span class="tel">54236296</span><br />
+                Email: <a class="email" href="index.html">Estudiantesantaelena107@gmail.com</a><br>
+                DPI: 3210 85104 2021
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                Soy una persona que sabe lo que quiere, que lucha por lo quiere, y que siempre hace las cosas
+                bien ya sea laboral, sentimental o familiar, ya que me han educado con principios y valores, 
+                mi mayor motivo es mi mamá, mi abuela y mi pareja sentimental, los cuales han estado conmigo
+                siempre. 
+            </p>
+        </div>
+        <dl>
+            <dd class="clear"></dd>
+            <dt>
+            <dd>
+            <ul class="navbar">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="estudios.html">Estudios realizados</a></li>
+                <li><a href="experiencia.html">Experiencia laboral</a></li>
+                <li><a href="referencia.html">Referencia laboral</a></li>
+            </ul>
+            </dd>
+            </dt>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div><hr size="4">
+    <h6>7av. calle 3-23 Zona 1, Villa Nueva tel. 54236296 </h6>
+    <h5>Curriculum Vitae realizado en el año 2021</h5>
 </body>
+
 </html>
